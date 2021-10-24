@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Game in js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <div class="main">
+        <div class="header">
+            <h1 class="header-time">Game time: <span class="time">5.0</span></h1>
+            <h1 class="header-result hide">Game result <span class="result"></span></h1>
+        </div>
+        <div class="block-game">
+           <div class="button-start">start</div>
+            <div class="game"></div>
+        </div>
+
+        <div class="footer">
+            <label for="time-game">time in second</label>
+            <input type="number" id="time-game" value="5" min="5" max="15" step="1">
+        </div>
+    </div>
+</div>
+<script src="game.ByMine.js" type="text/javascript"></script>
+
+</body>
+</html>
