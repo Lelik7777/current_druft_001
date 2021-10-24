@@ -1,0 +1,144 @@
+html{
+    background-color: bisque;
+}
+body{
+    background-color: #61dafb;
+    font-family: sans-serif;
+    max-width: 1200px;
+    padding: 20px;
+    margin:  0 auto;
+    width: 80%;
+
+}
+
+h1{
+    font-weight:bold;
+    font-size: 3em;
+    font-style: italic;
+}
+
+
+.header{
+    color: orange;
+}
+.span1{
+    color:forestgreen;
+    font-size: 1.3em;
+
+}
+p{
+    text-indent: 5%;
+
+    background-color: yellow;
+}
+.span0{
+    display: inline-block;
+    background-color: gold;
+    width: 300px;
+    height: 150px;
+
+}
+.blockFixed{
+    background-color: forestgreen;
+    width: 300px;
+    height: 40px;
+    position: fixed;
+    top:10px;
+    right: 10px;
+}
+input[type='checkbox']{
+position: relative;
+    top: 1px;
+    left: 3px;
+}
+@media screen and (max-width: 600px){
+    h1{
+        display: none;
+    }
+}
+.box{
+    width: 50%;
+    background-image: url('images/logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    padding: 50px 0;
+}
+.box ul li{
+    list-style-position: inside;
+}
+.ul{
+    width: 49%;
+    list-style-type: none;
+    background-color: #3c763d;
+    padding-left: 0;
+}
+.ul label{
+    display: inline-block;
+    width: 50%;
+    background-color: #1b6d85;
+}
+.ul span{
+    display: inline-block;
+    width: 50%;
+    background-color: #4cae4c;
+    text-align: right;
+}
+.logo img{
+    height: 100px;
+
+}
+.logo h2{
+    display: inline;
+    margin-left: 10px;
+}
+.logo{
+    display: flex;
+
+}
+.text{
+    margin-top: 20px;
+}
+.text p {
+    box-shadow: 0 0 0 2em #F4AAB9,
+    0 0 0 4em #66CCFF;
+    margin: 4em;
+    padding:1em;
+}
+.border{
+    height: 20px;
+}
+.text2{
+    margin-top: 30px;
+}
+.text2 p{
+    box-shadow: 0 0 0 20px darkcyan, 0 0 0 40px bisque;
+    margin: 30px;
+    padding: 20px;
+}
+.ul01{
+    padding: 0;
+    font-size: 0;
+    margin: 20px 0;
+}
+.ul01 li{
+    display: inline-block;
+    border: 1px solid greenyellow;
+    padding: 10px;
+    font-size: 1rem;
+}
+.ul01 li:nth-child(2):hover{
+    background-color: #5cb85c;
+    padding: 20px;
+}
+body p:nth-child(4)::first-letter{
+    font-size: 2rem;
+    margin-right: 0.3rem;
+    color: red;
+}
+body p:nth-child(4)::first-line{
+    text-decoration: underline;
+}
+.logo-past{
+    border: 2px solid red;
+}

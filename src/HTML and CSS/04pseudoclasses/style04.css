@@ -1,0 +1,75 @@
+
+.wrap {
+    background-color: green;
+    position: relative;
+    width: 50%;
+}
+
+.wrap p::after {
+    content: '';
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+
+}
+
+.wrap p::before {
+    content: '©';
+    width: 20px;
+    padding: 0 10px;
+    position: relative;
+    left: 0;
+
+}
+
+.wrap2 .block::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: grey;
+    position: absolute;
+}
+
+.wrap2 .block {
+    text-indent: 25px;
+    position: relative;
+    float: left;
+    width: 19%;
+}
+
+.wrap2 .block:nth-child(2n) {
+    margin: 0 0.5% 0 0.5%;
+}
+.wrap2 .block:nth-child(odd){
+
+    background-color: #61dafb;
+}
+.wrap2::after{
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+
+.one {
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+    margin-top: 1%;
+}
+.one:hover{
+    background-color: green;
+    cursor: n-resize;
+}
+.para::first-letter{
+    font-size: xxx-large;
+    font-weight: bold;
+    color: grey;
+}
+
+

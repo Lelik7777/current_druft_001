@@ -1,0 +1,149 @@
+.grey-line {
+    background-color: #f5f5f5;
+    padding: 0.5%;
+}
+
+.main-nav .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 15px 25px;
+
+}
+
+.header-logo img {
+    height: 100px;
+}
+
+.header-logo h2 {
+    display: inline;
+    margin-left: 1%;
+}
+
+.header-logo {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+}
+
+.header-logo img {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.header-logo h2 {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.main-adver .part-advert {
+    background-image: url('images/evakuator-1.png');
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: contain;
+    padding: 50px 0;
+    margin: 30px 0;
+}
+
+.main-adver .part-advert h1 {
+    margin-bottom: 30px;
+}
+
+.main-adver .part-advert ul {
+    margin: 60px 0;
+}
+
+.main-adver .part-advert ul li {
+    font-size: 20px;
+    margin: 2% 0;
+}
+
+.main-adver .part-advert span {
+    color: red;
+    font-size: 2rem;
+}
+
+/*
+---------------tow-card------------*/
+.tow-card img {
+    max-width: 100%;
+}
+
+.tow-card h3 {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.tow-card .description {
+    padding: 20px;
+    border: 1px dotted grey;
+    border-top: none;
+    margin-bottom: 20px;
+}
+
+.tow-card .description ul {
+    list-style-type: none;
+
+    padding: 10px 0 10px 0;
+}
+
+.tow-card .description label {
+    display: inline-block;
+    width: 70%;
+}
+
+.tow-card .description span {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+
+.map {
+    margin: 40px 0;
+    padding: 30px 0;
+    background-color: #f6f3f0;
+}
+
+.map p {
+    margin-bottom: 25px;
+}
+
+.economy {
+    margin: 40px 0;
+    padding: 30px 0;
+}
+.economy .economy-logo{
+    font-size: 48px;
+}
+.economy p{
+    font-size: 1.5rem;
+}
+.economy .economy-card{
+    margin: 30px 0;
+}

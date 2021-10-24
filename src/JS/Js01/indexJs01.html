@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Js common information</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html, body {
+            font-family: Tahoma, sans-serif;
+            margin: 0 1%;
+        }
+
+        .box1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            background-color: #1b6d85;
+            background-image: radial-gradient(blue,yellow);
+        }
+
+        .box2 {
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            background-image: radial-gradient(black,beige);
+
+        }
+
+        .box3 {
+            background-color: black;
+            width: 100px;
+            height: 100px;
+        }
+
+        @media screen  and (max-width: 600px) {
+            .box3 {
+                background-color: green;
+            }
+        }
+
+        .text {
+            display: flex;
+
+        }
+
+        .text p {
+            padding: 20px;
+            width: 20%;
+            box-shadow: 2px 2px 10px grey, -3px -3px 15px grey, inset 4px 4px 10px gray, inset -4px -4px 10px grey;
+            margin: 10px;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        td {
+            width: 70px;
+            height: 70px;
+            text-align: center;
+            font-size: 20px;
+            border: 1px solid black;
+            margin: 2px;
+        }
+
+        .blockText {
+            display: flex;
+            justify-content: center;
+            height: 400px;
+            align-items: center;
+            background-color: bisque;
+        }
+
+        .blockText p {
+            margin: 0 50px ;
+            width: 20%;
+            box-shadow: 0 0 0 20px red, 0 0 0 40px blue;
+        }
+
+        @media screen  and (max-width: 700px) {
+            body {
+                background-color: whitesmoke;
+            }
+        }
+
+        .wrapper {
+            display: grid;
+
+        }
+        .float-divs::after{
+            content: '';
+            width: 100%;
+            display: block;
+            clear: both;
+        }
+.float1{
+    float: left;
+    width: 40%;
+    padding: 1%;
+}
+.float2{
+    float: left;
+    width: 60%;
+    padding: 1%;
+}
+.counter{
+    margin: 60px 0;
+    font-size: 2rem;
+}
+.counter span{
+    margin: 0 30px;
+}
+input{
+    margin: 20px;
+}
+.blockText{
+    background: linear-gradient(190deg,yellow,gainsboro);
+}
+button{
+    margin-left: 10px;
+}
+.span1{
+    display: inline-block;
+    width: 50%;
+}
+ul li{
+    width: 30%;
+}
+.span2{
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+.header2{
+    color: red;
+}
+    </style>
+</head>
+<body>
+<img src="img/avatar_1634799920282.png" alt="" style="height: 50px">
+<h1 class="header1">You see our header</h1>
+<div class="counter">
+    counter: <span class="start">5.0</span> <button>start</button><button>stop</button>
+</div>
+<div class="tel"><a href="tel:+79787257377">any number</a></div>
+<input class="first-input" type="text" >
+<p class="under-input"></p>
+<ul>
+    <li><span class="span1">one</span><span class="span2">two</span></li>
+    <li><span class="span1">one</span><span class="span2">two</span></li>
+    <li><span class="span1">one</span><span class="span2">two</span></li>
+    <li><span class="span1">one</span><span class="span2">two</span></li>
+</ul>
+<div class="div-buttons">
+    <button>1</button>
+    <button>2</button>
+    <button>3</button>
+    <button>4</button>
+    <button>5</button>
+    <button>6</button>
+</div>
+<button id="button">change name h1</button>
+<
+<div class="box1">
+    <div class="box2" style="opacity: 0.7"></div>
+</div>
+<div class="block"></div>
+<div class="link">
+    <a href="https://www.google.com" target="_blank">google</a>
+</div>
+
+<div class="text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid dolorum eligendi et id illo
+        impedit in inventore ipsa, labore, magnam magni molestiae nesciunt non nulla repellat similique tempora
+        tempore!</p>
+    <p class="color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum debitis deleniti explicabo
+        inventore libero
+        mollitia. Assumenda beatae nostrum quos sint. Aliquam aspernatur dolorum minima modi pariatur quos recusandae
+        soluta!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quisquam tempora voluptates!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+    <p class="color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab at deleniti earum molestias optio quos
+        voluptate! Ab at deleniti dolore, explicabo id laudantium maiores odio omnis optio perferendis praesentium
+        quibusdam ratione reprehenderit rerum saepe sapiente similique suscipit totam vel.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eum libero minima numquam quaerat quis?</p>
+    <ul>
+        <li>one</li>
+        <li class="color">two</li>
+        <li>three</li>
+    </ul>
+</div>
+<table>
+    <tr>
+        <td>first</td>
+        <td>first</td>
+        <td>first</td>
+    </tr>
+    <tr>
+        <td>first</td>
+        <td>first</td>
+        <td>first</td>
+    </tr>
+    <tr>
+        <td>first</td>
+        <td>first</td>
+        <td>first</td>
+    </tr>
+</table>
+<div class="empty"></div>
+<div class="blockText">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consequuntur distinctio et expedita non quaerat
+        qui voluptatem. A amet blanditiis modi officia temporibus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos ducimus mollitia non nostrum,
+        officiis quos repellat. Blanditiis, commodi consectetur cupiditate dolor dolore eos, impedit magnam maiores
+        necessitatibus qui repudiandae, rerum unde.</p>
+</div>
+<div class="buttons"></div>
+<p class="p-after-redBox">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus corporis debitis ducimus
+    neque officiis omnis qui quis quod. Aspernatur deserunt eos impedit itaque odio perferendis possimus praesentium
+    quod repellat voluptatum.</p>
+<div class="wrapper">
+    <div class="one">one</div>
+    <div class="one">one</div>
+    <div class="one">one</div>
+    <div class="one">one</div>
+</div>
+<button class="new-window">open new window</button>
+
+<div class="box00" style="width: 500px;height: 400px;background-color: #1b6d85;display: flex;align-items: center;justify-content: center">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid aperiam, culpa fugit id illum itaque nisi porro quisquam quod, rerum temporibus tenetur unde! A eum facilis nesciunt nobis numquam omnis possimus soluta. Animi consequuntur dignissimos distinctio dolorem doloribus est eum facilis fuga hic ipsa laboriosam laborum quia rem, voluptatum?
+    <div class="box01" style="width: 50%;height: 50%;background-color: #8c8c8c;margin: 10%;border: 1px solid black;padding: 5%;"></div>
+</div>
+<div class="box-gradient" style="width: 100%;height: 40vh;background: linear-gradient( 90deg,red,burlywood,black 50%,grey,yellow);"></div>
+<div class="float-divs">
+    <div class="float1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita iusto natus nostrum tempore velit. Aliquam at dolor dolorem esse eum exercitationem, illum impedit ipsa nulla optio quasi quidem similique sunt tenetur ut. Beatae culpa cum dolor dolore fugiat labore.</div>
+    <div class="float2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias at commodi, consectetur dignissimos dolor, doloribus ipsum nisi non officia officiis quae quis quisquam, quo ratione soluta ut! Eos harum quia quo ullam?</div>
+</div>
+<div class="color"style="width: 100%;height: 20vh;background-color: whitesmoke;border: 1px solid black"></div>
+
+<canvas id="canvas" width="300px" height="300px"></canvas>
+
+<form action="" name="form" method="post">
+    <input type="text" name="title" placeholder="initial text">
+    <br>
+    <input type="text" name="text">
+    <br>
+    <button type="submit">save</button>
+</form>
+
+<script src="script01.js"></script>
+</body>
+</html>
