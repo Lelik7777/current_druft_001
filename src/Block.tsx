@@ -20,13 +20,14 @@ export const Block = ({}: PropsType) => {
     const changeMInValue = (min: number) => {
         setValue({...value, min})
     }
+    const [dis,setDis]=useState(false)
     return (
         <div>
             <div><Input type={'number'} value={value.min} changeValue={changeMInValue}/>
                 <span>mix value</span></div>
             <div><Input type={'number'} value={value.max} changeValue={changeMaxValue}/>
                 <span>max value</span></div>
-            {/*<Button title={'+'}/>*/}
+            <Button title={'+'} onClick={()=>setDis(true)} disable={dis}/>
         </div>
     )
 }
